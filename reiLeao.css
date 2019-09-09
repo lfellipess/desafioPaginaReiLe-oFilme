@@ -1,0 +1,131 @@
+:lang(en){
+    font-style: italic;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    background-color: #222224;
+    color: #ffbb58;
+    margin: 0 1em;
+}
+
+body p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.25;
+}
+
+body h2 {
+    font-size: 20pt;
+}
+
+#titulo h1 {
+    font-size: 40pt;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#titulo p {
+    text-indent: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#poster {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 1em;
+    float: left
+}
+
+#poster img {
+    width: 250px;
+}
+
+#poster figcaption {
+    display: none;
+}
+
+#dados {
+    margin-left: 400px;
+}
+
+#dados > dt {
+    float: left;
+    width: 5em;
+    text-align: right
+}
+
+#dados > dt:after {
+    content: ":";
+}
+
+#dados > dd {
+    margin-left: 7em;
+    margin-bottom: 0.5em;
+}
+
+#elenco {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#elenco dd {
+    font-style: italic;
+    margin-left: 1em;
+}
+
+#elenco > dd:before {
+    content: "(como "
+}
+
+#elenco > dd:after {
+    content: ")"
+}
+
+#generos {
+    margin: auto;
+    padding-left: 0;
+}
+
+#generos li {
+    display: inline-block;
+}
+
+#generos li:not(:last-child):after {
+  content: "," ;
+}
+
+#sinopse h2 {
+    clear: both;
+}  
+
+#fotos {
+    width: 174px;
+    padding-left: 0;
+}
+
+#fotos li {
+    display: block;
+    float: left;
+}
+
+#fotos img {
+    width: 185px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#foto_selecionada {
+    max-width: 600px;
+}
+
+#secao_trailer {
+    clear: both;
+}
+
+#trailer {
+    width: 100%;
+    max-width: 560px;
+}
